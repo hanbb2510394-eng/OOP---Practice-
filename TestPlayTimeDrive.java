@@ -4,8 +4,8 @@ public class TestPlayTime {
     public static void main (String[] args){
         // create and print separately Film and shortFilm object first
         PlayTime film = new PlayTime();
-        film.setHours(2);
-        film.setMinutes(35);
+        film.setHours(0);
+        film.setMinutes(15);
         System.out.println(film.getHours() + " h " + film.getMinutes() + " min");
 
         PlayTime shortFilm = new PlayTime();
